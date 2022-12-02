@@ -1,0 +1,10 @@
+import mobile from './default export.js';
+import {a,show,motor} from './default export.js';
+let m=new mobile();
+console.log("default export -------------");
+m.printvalue();
+console.log("named export -------------");
+console.log(a);
+console.log(show());
+let newmotor=new motor();
+newmotor.printvalue();
