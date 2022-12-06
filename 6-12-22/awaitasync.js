@@ -6,7 +6,7 @@ async function display(){
             if(decide==0){
                 resolve("hello world ")}
             else{
-                resolve("reject world");
+                throw new Error("reject world");
             }},1000);
         
     });
