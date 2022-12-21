@@ -1,0 +1,15 @@
+{
+    "name":"kartavya",
+    "marks":75,
+    "classes_passed":[1,2,3,4,5],
+    "friends":[{
+        "name":"venu",
+        "lastname":"madhav"
+    },{
+        "name":"rohit",
+        "lastname":"sakala"
+    }],
+    "married":false,
+    "date":"1-1-11111110",
+    "dead":null
+}
