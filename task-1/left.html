@@ -1,0 +1,41 @@
+<head>
+<meta charset="utf-8">
+<title>CSS Overlaying One DIV over Another DIV</title>
+<style> 
+    .container{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        margin: 20px;
+    }
+        .box{
+        width: 100%;
+        height: 100%;            
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;  /* for demo purpose  */
+    }
+	.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+    .stack-top{
+        z-index: 9;
+        margin: 0px; /* for demo purpose  */
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="test"><span class="testnew">1</span></div>
+    <div class="test"><span class="testnew">2</span></div>
+    <div class="test"><span class="testnew">3</span></div>
+</body>
+</html>
