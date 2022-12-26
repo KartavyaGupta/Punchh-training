@@ -1,0 +1,21 @@
+
+// const desc_start = "You were gifted: ";
+// const DATA = [
+//   {
+//     date: "Dec 23",
+//     title: "Item gifted",
+//     subtitle: "+item",
+//     description:
+//       "SU - 25 cents per gallon Max 20 Gallons(SU - 25 cents per gallon Max 20 Gallons)",
+//     points: 0,
+//     Items: 2,
+//   },
+//   {
+//     date: "Dec 23",
+//     title: "Item gifted",
+//     subtitle: "+item",
+//     description: "test Donation (Sign up camoaign)",
+//     points: 0,
+//     Items: 2,
+//   },
+// ];
