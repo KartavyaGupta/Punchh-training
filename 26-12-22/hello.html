@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+        function employee(name){
+            this.name=name;
+
+        }
+        employee.prototype.getname=function(){
+            console.log(this.name);
+        }
+        function manager(name,salary){
+            this.name=name;
+            this.salary=salary;
+
+        }
+        employee.prototype.getsalary=function(){
+            console.log(this.salary);
+        }
+
+        function director(name,salary,office){
+            this.name=name;
+            this.salary=salary;
+            this.office=office;
+            this.getoffice= function (){
+                return this.office;
+            }
+        }
+        emp1=new employee("emp1");
+        mgr1=new manager("mgr1",1000);
+        dr1= new director("dr1",10000,"ny");
+
+        mgr1.__proto__.__proto__=employee.prototype;
+        dr1.__proto__.__proto__=manager.prototype;
+        mgr1.getname();
+        dr1.getname();
+        dr1.getsalary();
+        //dr1.__proto__.__proto__=manager.prototype;
+    </script>
+  </head>
+  <body></body>
+</html>
