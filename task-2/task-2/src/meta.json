@@ -1,0 +1,45 @@
+{
+    "brand_logo_bar": true,
+    "gift_card": "braintree",
+    "isFabButtonRequired": false,
+    "online_ordering": "native_olo",
+    "rewards_program": "banked_currency",
+    "theme": {
+        "background": {
+            "default": "color",
+            "reward": "color"
+        },
+        "button": "round_corner",
+        "colors": {
+            "color1": "rgb(201, 207, 207)",
+            "color2": "rgb(120, 164, 216)",
+            "color3": "rgb(79, 39, 16)",
+            "color4": "rgb(94, 146, 11)",
+            "colorContrast1": "rgb(0,0,0)",
+            "colorContrast2": "rgb(255,255,255)",
+            "colorContrast3": "rgb(255,255,255)",
+            "colorContrast4": "rgb(255,255,255)"
+        },
+        "fonts": {
+            "default": "Raleway",
+            "header": "Roboto"
+        },
+        "form_input": "round_corner",
+        "map_pin": "basic",
+        "modified_images": [
+        ],
+        "more_type": "curve_grid",
+        "reward_meter": {
+            "bgColor": "rgb(255, 255, 255)",
+            "fgColor": "rgb(234, 183, 106)",
+            "textColor": "rgb(0,0,0)",
+            "type": "circular",
+            "useMeterBg": false,
+            "useMeterFg": false,
+            "variant": ""
+        },
+        "tab": "round_corner",
+        "theme_name": "basic"
+    },
+    "version": "2"
+}
